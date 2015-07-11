@@ -1,12 +1,49 @@
 .container {
-    
+  color : #546775;
+  font: 400 18px "PT Sans",sans-serif;
   max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .row {
+  margin-top: 1%;
+}
+.row-search {
+  margin-bottom: 60px;
+  padding: 30px;
+  background-color: #EFEFEF;
+}
+.row-result {
+  display: none;
+}
+input[type="text"] {
+
+  padding: 0.5em 0.6em;
+  display: inline-block;
+  border: 1px solid #CCC;
+  box-shadow: 0px 1px 3px #DDD inset;
+  border-radius: 4px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+input[type="text"]:focus {
+
+  outline: 0px none;
+  border-color: #129FEA;
+}
+.button {
+    background: #5365EB;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button:hover {
+    background: #CF7A7A
 }
 .column-img {
   float: left;
