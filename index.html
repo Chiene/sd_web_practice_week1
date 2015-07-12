@@ -2,45 +2,39 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Week 1 Demo</title>
+  <title>Week 1 Homework Demo</title>
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body >
-
   <div class="container">
-    <h4>Hello</h4>
+    <h4>Week 1 Demo</h4>
     <hr>
-    
     <div class="row-search">
-      <h4>This is use for search category</h4>
+      <h4>We could use following elements to feed the cat </h4>
       <div class="row">
-      Select a cat or all cat <br>
-        <input type="radio" id="c1" name="cc"/>Check Box 1
-        <input type="radio" id="c1" name="cc" />Check Box 1
-        <input type="radio" id="c1" name="cc" />Check Box 1
-        <input type="radio" id="c1" name="cc" />Check Box 1
-        <input type="radio" id="c1" name="cc" />Check Box 1
-        <input type="radio" id="c1" name="cc" />Check Box 1
+        You could select a cat ,all cat or no cats <br>
+        <input type="radio"  name="selectCat" value ="All" />All cat
+        <input type="radio"  name="selectCat" value = "Lms" />Lms
+        <input type="radio"  name="selectCat" value = "JJK" />JJK
+        <input type="radio"  name="selectCat" value = "Double" />Double
+        <input type="radio"  name="selectCat" value = "John" />John
+        <input type="radio"  name="selectCat" value = "Mars" />Mars
+        <input type="radio" name="selectCat" value ="None" />None
       </div>
       <div class="row"> 
-        <input class="text" type="text" id="c1" name="cc" />
+        <input class="text" type="text" placeHolder="Input the cat's category for search" />
       </div>
       <div class="row"> 
-        <input  class="button" type="button" id="c1" value="Feed it" /> 
+        <input  class="button" type="button" id="c1" value="Feed it" />
       </div>
     </div>
-    <div class="row-result"> 
-      <h4>Show for search result</h4>
-      <div class="row">
-      </div>
-      
-    </div>
+
     <div class="row">
     <h4>Cat Album</h4>
       <div class="column-img">
-        <img class="ncu" id="Lms" src="./images/Lms.jpg" value="0">
+        <img class="ncu cat" id="Lms" src="./images/Lms.jpg" value="0">
         <div class="display_name">
         <label>Lms</label>
         <span class="tag tag-ncu">ncu</span >
@@ -48,22 +42,23 @@
         
       </div>
       <div class="column-img">
-        <img class="ncu" id="JJK" src="./images/JJK.jpg" value="0">
+        <img class="ncu cat" id="JJK" src="./images/JJK.jpg" value="0">
         <label>JJK</label>
         <span class="tag tag-ncu">ncu</span >
       </div>
       <div class="column-img">
-        <img class="ncucc" id="Double" src="./images/Double.jpg" value="0">
+        <img class="ncucc cat" id="Double" src="./images/Double.jpg" value="0">
         <label>Double</label>
         <span class="tag tag-ncucc">ncucc</span >
       </div>
+
       <div class="column-img">
-        <img class="ncucsie" id="John" src="./images/John.jpg" value="0">
+        <img class="ncucsie cat" id="John" src="./images/John.jpg" value="0">
         <label>John</label>
         <span class="tag tag-ncucsie">ncucsie</span >
       </div>
       <div class="column-img">
-        <img class="ncucsie" id="Mars" src="./images/Mars.jpg" value="0">
+        <img class="ncucsie cat" id="Mars" src="./images/Mars.jpg" value="0">
          <label>Mars</label>
          <span class="tag tag-ncucsie">ncucsie</span >
       </div>
